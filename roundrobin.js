@@ -79,7 +79,7 @@ function roundRobin(procesos){
 //Ejecución (Pseudomain)
 let resultado = "";
 let link = document.getElementById("texto1");
-let procesosDeseados = 4; //prompt("Procesos a realizar:");
+let procesosDeseados = prompt("Procesos a realizar:");
 procesos = initProcesos(procesosDeseados);
 roundRobin(procesos);
 link.innerHTML += resultado;
